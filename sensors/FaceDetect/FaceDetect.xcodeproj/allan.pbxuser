@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	0091FF6410D7E3670011604C /* Utilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 2587}}";
+			sepNavSelRange = "{5838, 0}";
+			sepNavVisRange = "{5478, 2167}";
+			sepNavWindowFrame = "{{19, 0}, {1078, 1028}}";
+		};
+	};
+	0091FFE310D9099E0011604C /* haarcascade_frontalface_default.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 465894}}";
+			sepNavSelRange = "{744, 0}";
+			sepNavVisRange = "{101578, 1748}";
+			sepNavWindowFrame = "{{19, 156}, {1032, 867}}";
+		};
+	};
+	1D3623240D0F684500981E51 /* FaceDetectAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {687, 589}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 505}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FaceDetectAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 739}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 641}";
+			sepNavWindowFrame = "{{65, 114}, {1032, 867}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FaceDetect */ = {
+		activeExec = 0;
+		executables = (
+			9DD1681E12FA977D00D1231C /* FaceDetect */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* FaceDetectViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 739}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 570}";
+			sepNavWindowFrame = "{{42, 135}, {1032, 867}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* FaceDetectViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 1001}}";
+			sepNavSelRange = "{917, 0}";
+			sepNavVisRange = "{0, 1569}";
+			sepNavWindowFrame = "{{266, 0}, {1078, 1028}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 9DD1681E12FA977D00D1231C /* FaceDetect */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FaceDetect */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FaceDetect */,
+		);
+		breakpoints = (
+			9DAEC0A012FDEC690019C142 /* objc_exception_throw */,
+			9DAEC0C612FDEE370019C142 /* Utilities.m:162 */,
+			9DAEC0E212FDEE890019C142 /* Utilities.m:157 */,
+			9DAEC32012FDF7660019C142 /* cxpersistence.cpp:850 */,
+		);
+		codeSenseManager = 9DD1682A12FA979B00D1231C /* Code sense */;
+		executables = (
+			9DD1681E12FA977D00D1231C /* FaceDetect */,
+		);
+		expressions = (
+			path,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					868,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					808,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318630784;
+			PBXWorkspaceStateSaveDate = 318630784;
+		};
+		perUserProjectItems = {
+			9DAEC0B812FDEDFF0019C142 /* PlistBookmark */ = 9DAEC0B812FDEDFF0019C142 /* PlistBookmark */;
+			9DAEC0CA12FDEE410019C142 /* PBXTextBookmark */ = 9DAEC0CA12FDEE410019C142 /* PBXTextBookmark */;
+			9DAEC0DD12FDEE840019C142 /* PBXTextBookmark */ = 9DAEC0DD12FDEE840019C142 /* PBXTextBookmark */;
+			9DAEC2F712FDF2720019C142 /* PBXTextBookmark */ = 9DAEC2F712FDF2720019C142 /* PBXTextBookmark */;
+			9DAEC33312FDFF0F0019C142 /* PBXTextBookmark */ = 9DAEC33312FDFF0F0019C142 /* PBXTextBookmark */;
+			9DAEC33412FDFF0F0019C142 /* PBXTextBookmark */ = 9DAEC33412FDFF0F0019C142 /* PBXTextBookmark */;
+			9DAEC33612FDFFD30019C142 /* PBXTextBookmark */ = 9DAEC33612FDFFD30019C142 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 9DD1682912FA979B00D1231C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* FaceDetect-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{676, 145}, {1032, 867}}";
+		};
+	};
+	9DAEC0A012FDEC690019C142 /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 318635766.025128;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = objc_exception_throw;
+	};
+	9DAEC0B812FDEDFF0019C142 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* FaceDetect-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/allan/cruising/sensors/FaceDetect/FaceDetect-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9DAEC0C612FDEE370019C142 /* Utilities.m:162 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0091FF6410D7E3670011604C /* Utilities.m */;
+		functionName = "+opencvFaceDetect:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 162;
+		location = FaceDetect;
+		modificationTime = 318635766.024558;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9DAEC0CA12FDEE410019C142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FaceDetectAppDelegate.h */;
+		name = "FaceDetectAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 0;
+	};
+	9DAEC0DD12FDEE840019C142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* FaceDetectViewController.m */;
+		name = "FaceDetectViewController.m: 32";
+		rLen = 0;
+		rLoc = 917;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 0;
+	};
+	9DAEC0E212FDEE890019C142 /* Utilities.m:157 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0091FF6410D7E3670011604C /* Utilities.m */;
+		functionName = "+opencvFaceDetect:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 157;
+		location = FaceDetect;
+		modificationTime = 318635777.724645;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	9DAEC2F712FDF2720019C142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0091FFE310D9099E0011604C /* haarcascade_frontalface_default.xml */;
+		name = "haarcascade_frontalface_default.xml: 21";
+		rLen = 0;
+		rLoc = 744;
+		rType = 0;
+		vrLen = 1748;
+		vrLoc = 101578;
+	};
+	9DAEC2F912FDF2720019C142 /* cxpersistence.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = cxpersistence.cpp;
+		path = "/Users/allan/cruising/sensors/opencv/OpenCV-2.0.0/src/cxcore/cxpersistence.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 66781}}";
+			sepNavSelRange = "{23271, 57}";
+			sepNavVisRange = "{22635, 1419}";
+		};
+	};
+	9DAEC32012FDF7660019C142 /* cxpersistence.cpp:850 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 9DAEC2F912FDF2720019C142 /* cxpersistence.cpp */;
+		functionName = "icv_strtod( CvFileStorage* fs, char* ptr, char** endptr )";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 850;
+		location = FaceDetect;
+		modificationTime = 318635779.487639;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	9DAEC33312FDFF0F0019C142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9DAEC2F912FDF2720019C142 /* cxpersistence.cpp */;
+		name = "cxpersistence.cpp: 848";
+		rLen = 57;
+		rLoc = 23271;
+		rType = 0;
+		vrLen = 1419;
+		vrLoc = 22635;
+	};
+	9DAEC33412FDFF0F0019C142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0091FF6410D7E3670011604C /* Utilities.m */;
+		rLen = 0;
+		rLoc = 156;
+		rType = 1;
+	};
+	9DAEC33612FDFFD30019C142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0091FF6410D7E3670011604C /* Utilities.m */;
+		name = "Utilities.m: 157";
+		rLen = 0;
+		rLoc = 5838;
+		rType = 0;
+		vrLen = 2167;
+		vrLoc = 5478;
+	};
+	9DD1681E12FA977D00D1231C /* FaceDetect */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FaceDetect;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	9DD1682912FA979B00D1231C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	9DD1682A12FA979B00D1231C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
