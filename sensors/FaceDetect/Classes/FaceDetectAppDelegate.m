@@ -13,6 +13,7 @@
 
 @synthesize window;
 @synthesize viewController;
+@synthesize facebook;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
@@ -20,8 +21,19 @@
     // Override point for customization after app launch    
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
+
+	NSArray* permissions =  [[NSArray arrayWithObjects:
+							  @"email", @"user_photo_video_tags",
+							  @"friends_photo_video_tags", @"user_photos",
+							  @"friends_photos", nil] retain];
+	facebook = [[Facebook alloc] initWithAppId:@"171380946241404"];
+	[facebook authorize:permissions delegate:self];	
 }
 
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+	
+    return [facebook handleOpenURL:url]; 
+}
 
 - (void)dealloc {
     [viewController release];

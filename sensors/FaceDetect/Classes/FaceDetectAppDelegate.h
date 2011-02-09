@@ -7,16 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBConnect.h"
+
 
 @class FaceDetectViewController;
 
 @interface FaceDetectAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     FaceDetectViewController *viewController;
+	Facebook *facebook;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet FaceDetectViewController *viewController;
+@property (nonatomic, retain) Facebook *facebook;
 
 @end
 
