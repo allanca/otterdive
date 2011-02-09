@@ -3,3 +3,4 @@ i686
 __MACOSX
 .DS_Store
 build
+*.class
