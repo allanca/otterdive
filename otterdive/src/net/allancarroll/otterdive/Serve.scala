@@ -12,6 +12,7 @@ import com.google.appengine.api.blobstore.BlobstoreServiceFactory
 import com.google.appengine.api.images.ImagesService;
 import com.google.appengine.api.images.ImagesServiceFactory;
 
+import com.google.gson.Gson;
 
 
 class Serve extends HttpServlet {
@@ -28,7 +29,7 @@ class Serve extends HttpServlet {
 		print(servingUrl)
         
 		val api = new DefaultFaceClient(API_KEY, API_SEC)
-		val photos = api.detect(servingUrl)
-		res.getWriter().print(photos)
+		val photo = api.detect(servingUrl)
+		res.getWriter().print((new Gson()).toJson(photo))
     }
 }
